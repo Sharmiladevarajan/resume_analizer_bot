@@ -1,6 +1,6 @@
 
 langchain== 0.3.18
-PyPDF2==PyPDF2
+PyPDF2==3.0.1
 python-docx==1.1.2
 Flask_Cors==5.0.0
 python-dotenv==1.0.1
