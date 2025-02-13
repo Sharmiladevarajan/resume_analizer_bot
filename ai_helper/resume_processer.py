@@ -27,6 +27,7 @@ def resume_score_ai(jd,content):
                
             }
         )
+        print("response.content",response)
         return response.content
     except Exception as e:
         print(e)

@@ -17,7 +17,7 @@ def file_upload(payload):
         with open(upload_path, 'wb') as file: file.write(file_data)
         
         data.update({"file_uploaded": True, "filename": filename, "file": ""})
-        return handle_success_response_text("Enter your Job Description", payload, 1, True)
+        return handle_success_response_text("Please,Enter the Job Description", payload, 1, True)
     except Exception as e:
         print(e, "upload file")
         raise ValueError(e)
